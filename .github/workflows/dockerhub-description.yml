@@ -17,6 +17,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: iainbullock/xt_SYSRQ_docker
+        repository: iainbullock/xt_sysrq_docker
         short-description: ${{ github.event.repository.description }}
         enable-url-completion: true
