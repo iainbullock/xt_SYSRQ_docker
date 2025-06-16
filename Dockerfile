@@ -3,7 +3,7 @@ FROM alpine:3.22.0
 # install dependencies
 RUN apk update && apk add --no-cache \
   iptables, \
-  xtables-addons-common
+  xtables-addons
 
 # Copy configs and scripts
 RUN mkdir /conf /app
